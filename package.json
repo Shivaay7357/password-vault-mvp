@@ -14,11 +14,11 @@
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "crypto-js": "^4.2.0",
-    "dotenv": "^16.3.1",
-    "express": "^4.18.2",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
     "jsonwebtoken": "^9.0.2",
     "mongodb": "^6.20.0",
-    "mongoose": "^8.0.0",
+    "mongoose": "^8.19.1",
     "next": "14.0.0",
     "react": "^18",
     "react-dom": "^18"
@@ -31,5 +31,21 @@
     "eslint-config-next": "14.0.0",
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.0"
-  }
+  },
+  "description": "A full-stack password management application built with Next.js, Express.js, and MongoDB. Features client-side encryption, JWT authentication, and a clean, responsive UI.",
+  "main": "next.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shivaay7357/password-vault-mvp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shivaay7357/password-vault-mvp/issues"
+  },
+  "homepage": "https://github.com/Shivaay7357/password-vault-mvp#readme"
 }
